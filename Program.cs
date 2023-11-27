@@ -16,7 +16,9 @@ BankAccount newAccount = new BankAccount("Chatelain", 100.99);
 // newAccount.Balance = 100.99;
 // newAccount.Balance = newAccount.Balance + 100;
 
-newAccount.Deposit(50.00);
+// newAccount.Deposit(50.00);
+
+newAccount.Withdraw(400);
 
 Console.WriteLine($"{newAccount.OwnersName}, balance is {newAccount.getBalance()}");
 
