@@ -12,5 +12,6 @@ string name = "Benson";
 BankAccount newAccount = new BankAccount();
 
 newAccount.Balance = 100.99;
+newAccount.Balance = newAccount.Balance + 100;
 
 Console.WriteLine($"Your balance is {newAccount.Balance}");
