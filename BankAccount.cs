@@ -18,6 +18,10 @@ public BankAccount( string NewOwnersName, double initialBalance) {
     this.Balance += 100.00;
 }
 
+public double Deposit(double amount) {
+    this.Balance += amount;
+    return this.Balance;
+}
 public double getBalance() {
     return this.Balance;
 }
